@@ -23,8 +23,8 @@ export const MainPage = () => {
   const handleAdd = () => {
     setCounter((prev) => prev + 1);
     const newImg = {
-      url: `https://picsum.photos/id/${903 + counter}/200/200`,
-      titulo: `${903 + counter}`,
+      url: `https://picsum.photos/id/${902 + counter}/200/200`,
+      titulo: `${902 + counter}`,
     };
     setImgs((prevImgs) => [...prevImgs, newImg]);
     setInputValue("");
